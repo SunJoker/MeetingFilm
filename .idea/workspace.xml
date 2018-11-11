@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58e3ce86-b845-4339-8ec1-f3034ecb02dd" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/doc/Guns 技术文档 v1.0.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/sql/guns.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/GunsApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/GunsServletInitializer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/config/EhCacheConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/config/SpringSessionConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/config/SwaggerConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/config/properties/BeetlProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/config/properties/GunsProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/config/web/BeetlConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/config/web/ShiroConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/config/web/WebConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/aop/GlobalExceptionHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/aop/LogAop.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/aop/PermissionAop.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/beetl/BeetlConfiguration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/beetl/ShiroExt.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/annotion/BussinessLog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/annotion/Permission.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/Const.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/DatasourceEnum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/cache/Cache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/cache/CacheKey.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/DeleteDict.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/DeptDict.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/DictMap.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/LogDict.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/MenuDict.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/NoticeMap.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/RoleDict.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/UserDict.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/base/AbstractDictMap.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/base/SystemDict.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/factory/DictFieldWarpperFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/factory/ConstantFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/factory/IConstantFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/factory/MutiStrFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/factory/PageFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/state/BizLogType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/state/ExpenseState.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/state/LogSucceed.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/state/LogType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/state/ManagerStatus.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/state/MenuOpenStatus.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/state/MenuStatus.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/state/Order.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/exception/BizExceptionEnum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/exception/InvalidKaptchaException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/intercept/GunsUserFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/intercept/SessionHolderInterceptor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/listener/ConfigListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/log/LogManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/log/LogObjectHolder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/log/factory/LogFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/log/factory/LogTaskFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/shiro/ShiroDbRealm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/shiro/ShiroKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/shiro/ShiroUser.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/shiro/check/ICheck.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/shiro/check/PermissionCheckFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/shiro/check/PermissionCheckManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/shiro/factory/IShiro.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/shiro/factory/ShiroFactroy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/tag/DictSelectorTag.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/util/ApiMenuFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/util/Contrast.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/core/util/KaptchaUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/code/controller/CodeController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/code/factory/DefaultTemplateFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/code/service/TableService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/BlackboardController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/DeptController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/DictController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/KaptchaController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/LogController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/LoginController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/LoginLogController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/MenuController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/NoticeController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/RoleController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/DeptMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/DictMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/ExpenseMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/LoginLogMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/MenuMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/NoticeMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/OperationLogMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/RelationMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/RoleMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/UserMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/DeptMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/DictMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/ExpenseMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/LoginLogMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/MenuMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/NoticeMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/OperationLogMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/RelationMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/RoleMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/UserMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/factory/UserFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Dept.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Dict.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Expense.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/LoginLog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Menu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Notice.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/OperationLog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Relation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Role.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IDeptService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IDictService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/ILoginLogService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IMenuService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/INoticeService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IOperationLogService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IRelationService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IRoleService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IUserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/DeptServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/DictServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/LoginLogServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/MenuServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/NoticeServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/OperationLogServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/RelationServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/RoleServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/ManagerUser.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/ReqAddManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/ReqEditManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/DeptWarpper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/DictWarpper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/LogWarpper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/MenuWarpper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/NoticeWrapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/RoleWarpper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/resources/META-INF/spring-devtools.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/resources/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/resources/ehcache.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/resources/logback-spring.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/blackboard.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/code/code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/_container.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/_right.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/_tab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/_theme.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/NameCon.tag" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/SelectCon.tag" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/TimeCon.tag" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/avatar.tag" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/button.tag" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/input.tag" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/select.tag" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/table.tag" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/common/tags/tag_tips" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/code/code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/dept/dept.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/dept/dept_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/dept/dept_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/dict/dict.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/dict/dict_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/dict/dict_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/log/log.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/log/login_log.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/menu/menu.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/menu/menu_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/menu/menu_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/notice/notice.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/notice/notice_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/notice/notice_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/role/role.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/role/role_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/role/role_assign.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/role/role_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_chpwd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_edit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_roleassign.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_view.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/_fstyle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/bootstrap-rtl.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/patterns/header-profile-skin-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/patterns/header-profile-skin-3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/patterns/header-profile.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/patterns/shattered.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/bootstrap-table/bootstrap-table.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/bootstrap-treetable/bootstrap-treetable.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/chosen/chosen-sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/chosen/chosen-sprite@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/chosen/chosen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/iCheck/custom.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/iCheck/green.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/iCheck/green@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/images/sprite-skin-flat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/validate/bootstrapValidator.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/webuploader/webuploader.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/demo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/1_close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/1_open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/diy/9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/line_conn.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/zTreeStandard.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/img/zTreeStandard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/plugins/ztree/zTreeStyle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/img/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/img/boy.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/img/girl.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/img/icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/img/loading-upload.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/img/locked.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/img/user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/common/DateUtils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/common/Feng.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/common/ajax-object.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/common/bootstrap-table-object.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/common/select-list-object.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/common/tree-table-object.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/common/web-upload-object.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/common/ztree-object.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/contabs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/content.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/hplus.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/jquery.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/bootstrap-table/bootstrap-table.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/bootstrap-treetable/bootstrap-treetable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/chosen/chosen.jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/laydate/laydate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/laydate/theme/default/font/iconfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/laydate/theme/default/font/iconfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/laydate/theme/default/font/iconfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/laydate/theme/default/font/iconfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/laydate/theme/default/laydate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/layer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/mobile/layer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/mobile/need/layer.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/theme/default/icon-ext.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/theme/default/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/theme/default/layer.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/theme/default/loading-0.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/theme/default/loading-1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/layer/theme/default/loading-2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/pace/pace.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/validate/additional-methods.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/validate/bootstrapValidator.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/validate/zh_CN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/wangEditor/wangEditor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/Uploader.swf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.custom.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.fis.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.flashonly.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.flashonly.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.html5only.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.html5only.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.noimage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.noimage.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.nolog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.nolog.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.withoutimage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/webuploader/webuploader.withoutimage.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/js/plugins/ztree/jquery.ztree.all.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/code/gen.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/flowable/expense/expense.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/flowable/expense/expense_info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/flowable/process/process.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/flowable/process/process_info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/code/code.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/dept/dept.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/dept/dept_info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/dict/dict.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/dict/dict_info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/log/log.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/log/login_log.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/menu/menu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/menu/menu_info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/notice/notice.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/notice/notice_info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/role/role.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/role/role_info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/user/user.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/main/webapp/static/modular/system/user/user_info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/test/java/com/stylefeng/guns/base/BaseJunit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/test/java/com/stylefeng/guns/shiro/Base64Test.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/test/java/com/stylefeng/guns/system/BlackBoardTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/test/java/com/stylefeng/guns/system/DeptTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/test/java/com/stylefeng/guns/system/DictTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/test/java/com/stylefeng/guns/system/MenuTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-admin/src/test/java/com/stylefeng/guns/system/UserTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-api/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-api/src/main/java/com/stylefeng/guns/api/user/UserAPI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-api/src/main/java/com/stylefeng/guns/api/user/UserInfoModel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-api/src/main/java/com/stylefeng/guns/api/user/UserModel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-api/src/main/resources/META-INF/spring.factories" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-api/src/main/resources/default-config.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/CoreFlag.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/aop/BaseControllerExceptionHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/base/controller/BaseController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/base/controller/GlobalController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/base/controller/GunsErrorView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/base/tips/ErrorTip.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/base/tips/SuccessTip.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/base/tips/Tip.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/base/warpper/BaseControllerWarpper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/cache/BaseCacheFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/cache/CacheKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/cache/EhcacheFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/cache/ICache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/cache/ILoader.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/config/DefaultFastjsonConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/config/DefaultMultiConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/config/DefaultProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/config/DefaultWebConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/config/MultiDataSourceConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/config/SingleDataSourceConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/config/properties/DruidProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/config/properties/MutiDataSourceProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/constant/IsMenu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/datascope/DataScope.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/datascope/DataScopeInterceptor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/db/Db.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/exception/GunsException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/exception/GunsExceptionEnum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/exception/ServiceExceptionEnum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/mutidatasource/DataSourceContextHolder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/mutidatasource/DynamicDataSource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/mutidatasource/annotion/DataSource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/mutidatasource/aop/MultiSourceExAop.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/node/MenuNode.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/node/ZTreeNode.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/page/PageBT.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/page/PageInfoBT.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/qr/ImgQrTool.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/qr/MatrixToImageConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/qr/MatrixToImageWriter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/qr/QrImage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/BasicType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/BeanKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/ClassKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/CollectionKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/DateTime.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/DateTimeKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/HexKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/HttpKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/ObjectKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/PageKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/StrKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/WafKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/WafRequestWrapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/support/exception/ToolBoxException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/Convert.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/DateUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/FileUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/HttpSessionHolder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/IdGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/MD5Util.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/NumUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/PingYinUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/RenderUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/ResKit.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/SimpleContrast.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/SpringContextHolder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/SqlUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/util/ToolUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/xss/XssFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/java/com/stylefeng/guns/core/xss/XssHttpServletRequestWrapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/resources/META-INF/spring.factories" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-core/src/main/resources/default-config.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/GatewayApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/GunsRestServletInitializer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/CurrentUser.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/SimpleObject.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/aop/GlobalExceptionHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/exception/BizExceptionEnum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/UserMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/UserMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/common/persistence/model/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/MessageConverConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/MybatisPlusConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/WebConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/properties/JwtProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/config/properties/RestProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/Client.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/dto/AuthRequest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/dto/AuthResponse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/converter/BaseTransferEntity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/converter/WithSignMessageConverter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/filter/AuthFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/security/DataSecurityAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/security/impl/Base64SecurityAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/util/JwtTokenUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/IReqValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/dto/Credence.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/DbValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/SimpleValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/example/ExampleController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/user/UserController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/vo/ResponseVO.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/main/resources/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/test/java/com/stylefeng/guns/GunsRestApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/test/java/com/stylefeng/guns/fastjson/JsonTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/test/java/com/stylefeng/guns/generator/EntityGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/test/java/com/stylefeng/guns/jwt/DecryptTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-gateway/src/test/java/com/stylefeng/guns/jwt/JWTTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/action/GunsCodeGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/action/config/AbstractGeneratorConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/action/config/GunsGeneratorConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/action/config/WebGeneratorConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/action/model/GenQo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/SimpleTemplateEngine.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/base/AbstractTemplateEngine.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/base/GunsTemplateEngine.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/config/ContextConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/config/ControllerConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/config/DaoConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/config/Menu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/config/PageConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/config/ServiceConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/java/com/stylefeng/guns/generator/engine/config/SqlConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/resources/gunsTemplate/advanced/Controller.java.btl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/resources/gunsTemplate/advanced/menu_sql.sql.btl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/resources/gunsTemplate/advanced/page.html.btl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/resources/gunsTemplate/advanced/page.js.btl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/resources/gunsTemplate/advanced/page_add.html.btl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/resources/gunsTemplate/advanced/page_edit.html.btl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-generator/src/main/resources/gunsTemplate/advanced/page_info.js.btl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/db/guns_rest.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/GunsRestApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/GunsRestServletInitializer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/common/SimpleObject.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/common/aop/GlobalExceptionHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/common/exception/BizExceptionEnum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/UserMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/UserMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/common/persistence/model/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/config/MessageConverConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/config/MybatisPlusConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/config/WebConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/config/properties/JwtProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/config/properties/RestProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/dto/AuthRequest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/dto/AuthResponse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/converter/BaseTransferEntity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/converter/WithSignMessageConverter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/filter/AuthFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/security/DataSecurityAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/security/impl/Base64SecurityAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/util/JwtTokenUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/IReqValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/dto/Credence.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/DbValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/SimpleValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/java/com/stylefeng/guns/rest/modular/example/ExampleController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/main/resources/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/test/java/com/stylefeng/guns/GunsRestApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/test/java/com/stylefeng/guns/fastjson/JsonTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/test/java/com/stylefeng/guns/generator/EntityGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/test/java/com/stylefeng/guns/jwt/DecryptTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-rest/src/test/java/com/stylefeng/guns/jwt/JWTTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/GunsRestServletInitializer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/UserApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/common/SimpleObject.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/common/aop/GlobalExceptionHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/common/exception/BizExceptionEnum.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/MeetingfilmUserTMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/MeetingfilmUserTMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/common/persistence/model/MeetingfilmUserT.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/config/MessageConverConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/config/MybatisPlusConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/config/WebConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/config/properties/JwtProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/config/properties/RestProperties.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/dto/AuthRequest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/dto/AuthResponse.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/converter/BaseTransferEntity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/converter/WithSignMessageConverter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/filter/AuthFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/security/DataSecurityAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/security/impl/Base64SecurityAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/util/JwtTokenUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/IReqValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/dto/Credence.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/DbValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/SimpleValidator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/example/ExampleController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/user/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/main/resources/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/test/java/com/stylefeng/guns/GunsRestApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/test/java/com/stylefeng/guns/fastjson/JsonTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/test/java/com/stylefeng/guns/generator/EntityGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/test/java/com/stylefeng/guns/jwt/DecryptTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/guns-user/src/test/java/com/stylefeng/guns/jwt/JWTTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/meetingfilm-gateway.log.2018-11-08.0.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/meetingfilm-user.log.2018-11-08.0.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/meetingfilm-user.log.2018-11-09.0.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/用户模块/guns/pom.xml" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/guns-admin/target/" />
+    <ignored path="$PROJECT_DIR$/guns-generator/target/" />
+    <ignored path="$PROJECT_DIR$/guns-user/target/" />
+    <ignored path="$PROJECT_DIR$/guns-core/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/guns-api/target/" />
+    <ignored path="$PROJECT_DIR$/guns-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/guns-rest/target/" />
+    <ignored path="$PROJECT_DIR$/guns-film/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FilmController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/FilmController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilmDetailVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmDetailVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultFilmServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/DefaultFilmServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8694">
+              <caret line="334" column="83" lean-forward="false" selection-start-line="334" selection-start-column="83" selection-end-line="334" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GatewayApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/GatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilmServiceApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/FilmServiceApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilmAsyncServiceApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/FilmAsyncServiceApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>randomKey</find>
+      <find>getRandomKey</find>
+      <find>lom</find>
+      <find>class</find>
+      <find>uuid</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>filmId</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/UserAPI.java" />
+        <option value="$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/DbValidator.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/user/UserController.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/modular/user/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guns-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/UserModel.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/UserInfoModel.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/guns-film/pom.xml" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/BannerVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/HotFilmVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmInfo.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/BannerVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/vo/UserInfoModel.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/BannerVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmInfo.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/ServiceAPI.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/ServiceApi.java" />
+        <option value="$PROJECT_DIR$/guns-film/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmIndexVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmConditionVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/CatVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/SourceVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/YearVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmRequestVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmVO.java" />
+        <option value="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/MeetingfilmFilmTMapper.java" />
+        <option value="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/MeetingfilmFilmTMapper.xml" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmDescVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/ImgVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/ActorVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/FilmServiceApi.java" />
+        <option value="$PROJECT_DIR$/guns-film/src/test/java/com/stylefeng/guns/generator/EntityGenerator.java" />
+        <option value="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/MeetingfilmActorTMapper.java" />
+        <option value="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/MeetingfilmActorTMapper.xml" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/ActorRequestVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/InfoRequeatVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/InfoRequeatVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/ActorRequestVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmDetailVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/InfoRequestVO.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/filter/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/vo/ResponseVO.java" />
+        <option value="$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/FilmAsyncServiceApi.java" />
+        <option value="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/DefaultFilmAsyncServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/DefaultFilmServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/FilmController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Soft/Maven/apache-maven-3.5.0-bin/apache-maven-3.5.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring BatchSpring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CloudSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring DataSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring</id>
+          </State>
+          <State>
+            <id>Spring OSGiSpring</id>
+          </State>
+          <State>
+            <id>Spring SecuritySpring</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring</id>
+          </State>
+          <State>
+            <id>Spring WebSocketSpring</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="guns-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MeetingFilm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15397775" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="SearchEverywhereHistoryKey" value="Film&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/FilmController.java&#10;Meet&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/MeetingfilmFilmTMapper.java&#10;FilmCon&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/FilmController.java&#10;Res&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/vo/ResponseVO.java&#10;FilmA&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-api/src/main/java/com/stylefeng/guns/api/film/FilmServiceApi.java&#10;Fil&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/FilmController.java&#10;FilmC&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/FilmController.java&#10;FilmContro&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/FilmController.java&#10;Auth&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java&#10;userCont&#9;FILE&#9;file://D:/GitHub/MeetingFilm/用户模块/guns/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/user/UserController.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.stylefeng.guns.rest.modular.film.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MeetingFilm\用户模块\guns\guns-api\src\main\java\com\stylefeng\guns\api\film" />
+      <recent name="D:\GitHub\MeetingFilm\用户模块\guns" />
+      <recent name="D:\GitHub\MeetingFilm\用户模块\guns\guns-gateway\src\main\java\com\stylefeng\guns\rest\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="EntityGenerator.entityGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.stylefeng.guns.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="guns-film" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.stylefeng.guns.generator" />
+      <option name="MAIN_CLASS_NAME" value="com.stylefeng.guns.generator.EntityGenerator" />
+      <option name="METHOD_NAME" value="entityGenerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="FilmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.stylefeng.guns.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stylefeng.guns.rest.FilmApplication" />
+      <module name="guns-film" />
+      <envs />
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stylefeng.guns.rest.GatewayApplication" />
+      <module name="guns-gateway" />
+      <envs />
+    </configuration>
+    <configuration name="GunsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stylefeng.guns.GunsApplication" />
+      <module name="guns-admin" />
+      <envs />
+    </configuration>
+    <configuration name="GunsRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stylefeng.guns.rest.GunsRestApplication" />
+      <module name="guns-rest" />
+      <envs />
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stylefeng.guns.rest.UserApplication" />
+      <module name="guns-user" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.GunsApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.UserApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.GatewayApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.GunsRestApplication" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EntityGenerator.entityGenerator" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.FilmApplication" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.FilmApplication" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EntityGenerator.entityGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58e3ce86-b845-4339-8ec1-f3034ecb02dd" name="Default" comment="" />
+      <created>1541688451370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541688451370</updated>
+      <workItem from="1541688456463" duration="39816000" />
+      <workItem from="1541838204071" duration="36749000" />
+      <workItem from="1541948143090" duration="384000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.09 at 20h 08m 51s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.10 at 16h 07m 03s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.10 at 16h 09m 48s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.10 at 16h 19m 54s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.10 at 16h 20m 34s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.10 at 16h 27m 33s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.10 at 17h 19m 29s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.10 at 21h 34m 10s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.11 at 20h 02m 04s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EntityGenerator_entityGenerator - 2018.11.11 at 20h 02m 46s.xml">
+      <configuration name="EntityGenerator.entityGenerator" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76949000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4525641" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42395833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4692388" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2028666" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/DbValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-user/src/main/java/com/stylefeng/guns/rest/modular/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-683">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/aop/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/UserApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="182" column="25" lean-forward="true" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmVO.java" />
+    <entry file="file://$PROJECT_DIR$/guns-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="64" column="35" lean-forward="false" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmInfo.java" />
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/vo/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/user/vo/UserInfoModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/auth/validator/impl/DbValidator.java" />
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/BannerVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/BannerVO.java" />
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/model/MeetingfilmSourceDictT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/CatVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/SourceVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/YearVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmDescVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/ImgVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/MeetingfilmFilmTMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/MeetingfilmFilmTMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/test/java/com/stylefeng/guns/generator/EntityGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/ActorVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/target/classes/com/stylefeng/guns/rest/common/persistence/dao/mapping/MeetingfilmActorTMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/MeetingfilmActorTMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/common/persistence/dao/mapping/MeetingfilmActorTMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmRequestVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmIndexVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/vo/FilmConditionVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/ActorRequestVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/InfoRequestVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="105" lean-forward="false" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/vo/ResponseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/auth/filter/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/FilmApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/FilmServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/DefaultFilmAsyncServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/FilmAsyncServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-api/src/main/java/com/stylefeng/guns/api/film/vo/FilmDetailVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-film/src/main/java/com/stylefeng/guns/rest/modular/film/service/DefaultFilmServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8694">
+          <caret line="334" column="83" lean-forward="false" selection-start-line="334" selection-start-column="83" selection-end-line="334" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns-gateway/src/main/java/com/stylefeng/guns/rest/modular/film/FilmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>guns-user</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
