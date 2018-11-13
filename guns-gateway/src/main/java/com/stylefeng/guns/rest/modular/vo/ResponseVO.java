@@ -70,6 +70,7 @@ public class ResponseVO<M> {
         responseVO.setImgPre(imgPre);
         responseVO.setTotalPage(totalPage);
         responseVO.setNowPage(nowPage);
+        responseVO.setData(m);
 
         return responseVO;
     }

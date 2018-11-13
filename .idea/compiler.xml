@@ -2,14 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="guns-admin" />
         <module name="guns-api" />
+        <module name="guns-cinema" />
         <module name="guns-core" />
         <module name="guns-film" />
+        <module name="guns-film (1)" />
         <module name="guns-gateway" />
         <module name="guns-generator" />
         <module name="guns-rest" />
@@ -20,14 +23,17 @@
     <bytecodeTargetLevel>
       <module name="guns-admin" target="1.8" />
       <module name="guns-api" target="1.8" />
+      <module name="guns-cinema" target="1.8" />
       <module name="guns-core" target="1.8" />
       <module name="guns-film" target="1.8" />
+      <module name="guns-film (1)" target="1.8" />
       <module name="guns-gateway" target="1.8" />
       <module name="guns-generator" target="1.8" />
       <module name="guns-parent" target="1.8" />
       <module name="guns-rest" target="1.8" />
       <module name="guns-user" target="1.8" />
       <module name="guns-user (1)" target="1.8" />
+      <module name="meetingFilm-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
