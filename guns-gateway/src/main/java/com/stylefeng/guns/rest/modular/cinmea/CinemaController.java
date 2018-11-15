@@ -4,11 +4,13 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.stylefeng.guns.api.cinema.CinemaServiceApi;
 import com.stylefeng.guns.api.cinema.vo.*;
+import com.stylefeng.guns.api.userOrder.UserOrderServiceApi;
 import com.stylefeng.guns.rest.modular.cinmea.vo.CinemaConditionResponseVO;
 import com.stylefeng.guns.rest.modular.cinmea.vo.CinemaFieldsResponseVO;
 import com.stylefeng.guns.rest.modular.cinmea.vo.CinemaFiledResponseVO;
 import com.stylefeng.guns.rest.modular.vo.ResponseVO;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,6 +32,9 @@ public class CinemaController {
     @Reference(interfaceClass = CinemaServiceApi.class,
             connections = 10,cache = "lru", check = false)
     private CinemaServiceApi cinemaServiceApi;
+
+    @Reference(interfaceClass = UserOrderServiceApi.class, check = false)
+    private UserOrderServiceApi userOrderServiceApi;
 
     @RequestMapping(value = "getCinema", method = RequestMethod.GET)
     public ResponseVO getCinemas(CinemaQueryVO cinemaQueryVO) {
@@ -100,11 +105,11 @@ public class CinemaController {
             FilmInfoVO filmInfoByFieldId = cinemaServiceApi.getFilmInfoByFieldId(fieldId);
             HallInfoVO filmFieldInfo = cinemaServiceApi.getFilmFieldInfo(fieldId);
 
-            // 模拟已售数据
-            filmFieldInfo.setSoldSeats("1,2,3");
+            // 已售数据
+            filmFieldInfo.setSoldSeats(userOrderServiceApi.getSoldSeatsByFieldId(fieldId));
 
             cinemaFiledResponseVO.setCinemaInfo(cinemaInfoById);
-            cinemaFiledResponseVO.setFilmFieldInfo(filmFieldInfo);
+            cinemaFiledResponseVO.setHallInfoVO(filmFieldInfo);
             cinemaFiledResponseVO.setFilmInfoByField(filmInfoByFieldId);
 
             return ResponseVO.success(IMG_PRE, cinemaFiledResponseVO);

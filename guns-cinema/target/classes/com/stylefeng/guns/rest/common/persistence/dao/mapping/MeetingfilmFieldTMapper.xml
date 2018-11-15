@@ -65,7 +65,7 @@
       WHERE f.`hall_id` = hall.`UUID`
           AND f.`UUID` = ${fieldId}
     </select>
-    <select id="getFilmInfoById" parameterType="integer" resultType="com.stylefeng.guns.api.cinema.vo.FilmInfoVO">
+    <select id="getFilmInfoById" parameterType="java.lang.Integer" resultType="com.stylefeng.guns.api.cinema.vo.FilmInfoVO">
       SELECT
         f.film_id as filmId,
         info.film_name as filmName,

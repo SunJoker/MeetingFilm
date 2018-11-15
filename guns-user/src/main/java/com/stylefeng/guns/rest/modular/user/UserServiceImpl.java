@@ -2,7 +2,7 @@ package com.stylefeng.guns.rest.modular.user;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.stylefeng.guns.api.user.UserApi;
+import com.stylefeng.guns.api.user.UserServiceApi;
 import com.stylefeng.guns.api.user.vo.UserInfoModel;
 import com.stylefeng.guns.api.user.vo.UserModel;
 import com.stylefeng.guns.core.util.MD5Util;
@@ -15,8 +15,8 @@ import java.sql.Date;
 
 
 @Component
-@Service(interfaceClass = UserApi.class, loadbalance = "roundrobin")
-public class UserServiceImpl implements UserApi {
+@Service(interfaceClass = UserServiceApi.class, loadbalance = "roundrobin")
+public class UserServiceImpl implements UserServiceApi {
 
     @Autowired
     private MeetingfilmUserTMapper meetingfilmUserTMapper;
@@ -76,7 +76,7 @@ public class UserServiceImpl implements UserApi {
         userInfoModel.setUuid(meetingfilmUserT.getUuid());
         userInfoModel.setHeadAddress(meetingfilmUserT.getHeadUrl());
         userInfoModel.setUsername(meetingfilmUserT.getUserName());
-        userInfoModel.setUpdateTiem(meetingfilmUserT.getUpdateTime().getTime());
+        userInfoModel.setUpdateTime(meetingfilmUserT.getUpdateTime().getTime());
         userInfoModel.setSex(meetingfilmUserT.getUserSex());
         userInfoModel.setPhone(meetingfilmUserT.getUserPhone());
         userInfoModel.setNickname(meetingfilmUserT.getNickName());

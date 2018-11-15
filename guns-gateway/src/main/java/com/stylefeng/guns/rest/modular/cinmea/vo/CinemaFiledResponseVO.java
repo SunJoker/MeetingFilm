@@ -14,5 +14,5 @@ public class CinemaFiledResponseVO {
 
     private CinemaInfoVO cinemaInfo;
     private FilmInfoVO filmInfoByField;
-    private HallInfoVO filmFieldInfo;
+    private HallInfoVO hallInfoVO;
 }

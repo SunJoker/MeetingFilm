@@ -22,5 +22,5 @@ public interface MeetingfilmFieldTMapper extends BaseMapper<MeetingfilmFieldT> {
 
     HallInfoVO getHallInfo(@Param("fieldId") int fieldId);
 
-    FilmInfoVO getFilmInfoById(@Param("fieldId") int fieldId);
+    FilmInfoVO getFilmInfoById(@Param("fieldId") Integer fieldId);
 }

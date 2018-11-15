@@ -1,7 +1,7 @@
 package com.stylefeng.guns.rest.modular.auth.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.stylefeng.guns.api.user.UserApi;
+import com.stylefeng.guns.api.user.UserServiceApi;
 import com.stylefeng.guns.rest.modular.auth.controller.dto.AuthRequest;
 import com.stylefeng.guns.rest.modular.auth.controller.dto.AuthResponse;
 import com.stylefeng.guns.rest.modular.auth.util.JwtTokenUtil;
@@ -24,8 +24,8 @@ public class AuthController {
     @Autowired
     private JwtTokenUtil jwtTokenUtil;
 
-    @Reference(interfaceClass = UserApi.class, check = false)
-    private UserApi userAPI;
+    @Reference(interfaceClass = UserServiceApi.class, check = false)
+    private UserServiceApi userAPI;
 
     @RequestMapping(value = "${jwt.auth-path}")
     public ResponseVO<?> createAuthenticationToken(AuthRequest authRequest) {

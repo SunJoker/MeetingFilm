@@ -7,7 +7,7 @@ import com.stylefeng.guns.api.user.vo.UserModel;
  * @Auther gongfukang
  * @Date 11/8 22:57
  */
-public interface UserApi {
+public interface UserServiceApi {
 
     // 登录
     int login(String username, String password);
