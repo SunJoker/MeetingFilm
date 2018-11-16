@@ -11,7 +11,8 @@ import com.stylefeng.guns.api.cinema.vo.UserOrderQueryVO;
 import com.stylefeng.guns.api.userOrder.UserOrderServiceApi;
 import com.stylefeng.guns.api.userOrder.vo.OrderVO;
 import com.stylefeng.guns.core.snowflake.SnowflakeIdWorker;
-import com.stylefeng.guns.rest.common.persistence.dao.MeetingfilmOrderTMapper;
+import com.stylefeng.guns.rest.common.persistence.dao.MeetingfilmOrder2018TMapper;
+import com.stylefeng.guns.rest.common.persistence.model.MeetingfilmOrder2018T;
 import com.stylefeng.guns.rest.common.persistence.model.MeetingfilmOrderT;
 import com.stylefeng.guns.rest.common.util.FTPUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -29,11 +30,11 @@ import java.util.List;
  */
 @Slf4j
 @Component
-@Service(interfaceClass = UserOrderServiceApi.class, group = "default")
-public class DefaultUserOrderServiceImpl implements UserOrderServiceApi {
+@Service(interfaceClass = UserOrderServiceApi.class, group = "order2018")
+public class UserOrderServiceImpl2018 implements UserOrderServiceApi {
 
     @Autowired
-    private MeetingfilmOrderTMapper orderTMapper;
+    private MeetingfilmOrder2018TMapper order2018TMapper;
 
     @Reference(interfaceClass = CinemaServiceApi.class, check = false)
     private CinemaServiceApi cinemaServiceApi;
@@ -45,7 +46,7 @@ public class DefaultUserOrderServiceImpl implements UserOrderServiceApi {
     public boolean isTrueSeats(String fieldId, String seats) {
 
         // 根据 fieldId 找到对应的座位位置图
-        String seatPath = orderTMapper.getSeatsByFieldId(fieldId);
+        String seatPath = order2018TMapper.getSeatsByFieldId(fieldId);
         // 读取位置图
         String fileStrByAddress = ftpUtil.getFileStrByAddress(seatPath);
         // fileStrByAddress -> json
@@ -74,7 +75,7 @@ public class DefaultUserOrderServiceImpl implements UserOrderServiceApi {
 
         EntityWrapper entityWrapper = new EntityWrapper();
         entityWrapper.eq("field_id", fieldId);
-        List<MeetingfilmOrderT> list = orderTMapper.selectList(entityWrapper);
+        List<MeetingfilmOrderT> list = order2018TMapper.selectList(entityWrapper);
         String[] seatArrs = seats.split(",");
         for (MeetingfilmOrderT orderT : list) {
             String[] ids = orderT.getSeatsIds().split(",");
@@ -109,21 +110,21 @@ public class DefaultUserOrderServiceImpl implements UserOrderServiceApi {
         int solds = soldSeats.split(",").length;
         double totalPrice = getTotalPrice(solds, filmPrice);
 
-        MeetingfilmOrderT orderT = new MeetingfilmOrderT();
-        orderT.setUuid(uuid);
-        orderT.setSeatsName(seatsName);
-        orderT.setSeatsIds(soldSeats);
-        orderT.setOrderUser(userId);
-        orderT.setOrderPrice(totalPrice);
-        orderT.setFilmId(filmId);
-        orderT.setFilmPrice(filmPrice);
-        orderT.setCinemaId(cinemaId);
-        orderT.setFieldId(fieldId);
+        MeetingfilmOrder2018T order2018T = new MeetingfilmOrder2018T();
+        order2018T.setUuid(uuid);
+        order2018T.setSeatsName(seatsName);
+        order2018T.setSeatsIds(soldSeats);
+        order2018T.setOrderUser(userId);
+        order2018T.setOrderPrice(totalPrice);
+        order2018T.setFilmId(filmId);
+        order2018T.setFilmPrice(filmPrice);
+        order2018T.setCinemaId(cinemaId);
+        order2018T.setFieldId(fieldId);
 
-        Integer insert = orderTMapper.insert(orderT);
+        Integer insert = order2018TMapper.insert(order2018T);
 
         if (insert > 0) {
-            OrderVO orderVO = orderTMapper.getOrderInfoById(uuid);
+            OrderVO orderVO = order2018TMapper.getOrderInfoById(uuid);
             if (orderVO == null || orderVO.getOrderId() == null) {
                 log.error("订单信息查询失败，订单编号为{}", uuid);
                 return null;
@@ -154,16 +155,16 @@ public class DefaultUserOrderServiceImpl implements UserOrderServiceApi {
             log.error("订单查询业务失败，用户编号未传入");
             return null;
         } else {
-            List<OrderVO> ordersByUserId = orderTMapper.getOrderInfoByUserId(userId,page);
+            List<OrderVO> ordersByUserId = order2018TMapper.getOrderInfoByUserId(userId,page);
             if (ordersByUserId == null && ordersByUserId.size() == 0) {
                 result.setTotal(0);
                 result.setRecords(new ArrayList<>());
                 return result;
             } else {
                 // 获取订单总数
-                EntityWrapper<MeetingfilmOrderT> entityWrapper = new EntityWrapper<>();
+                EntityWrapper<MeetingfilmOrder2018T> entityWrapper = new EntityWrapper<>();
                 entityWrapper.eq("order_user", userId);
-                Integer counts = orderTMapper.selectCount(entityWrapper);
+                Integer counts = order2018TMapper.selectCount(entityWrapper);
                 result.setTotal(counts);
                 result.setRecords(ordersByUserId);
 
@@ -178,14 +179,14 @@ public class DefaultUserOrderServiceImpl implements UserOrderServiceApi {
             log.error("查询已售座位错误，未传入任何场次编号");
             return "";
         } else {
-            String soldSeatsByFieldId = orderTMapper.getSoldSeatsByFieldId(fieldId);
+            String soldSeatsByFieldId = order2018TMapper.getSoldSeatsByFieldId(fieldId);
             return soldSeatsByFieldId;
         }
     }
 
     @Override
     public OrderVO getOrderInfoById(String orderId) {
-        OrderVO orderInfoById = orderTMapper.getOrderInfoById(orderId);
+        OrderVO orderInfoById = order2018TMapper.getOrderInfoById(orderId);
         return orderInfoById;
     }
 }

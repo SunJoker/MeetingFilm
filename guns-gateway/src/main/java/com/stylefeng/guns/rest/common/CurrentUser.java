@@ -7,8 +7,11 @@ package com.stylefeng.guns.rest.common;
  */
 public class CurrentUser {
 
-    // 线程绑定存储空间
-    private static final ThreadLocal<String> threadLocal = new ThreadLocal<>();
+    /*
+        线程绑定存储空间
+        InheritableThreadLocal 在线程切换时，可以绑定用户，ThreadLocal 不可以
+    * */
+    private static final InheritableThreadLocal<String> threadLocal = new InheritableThreadLocal<>();
 
     public static void saveUserId(String userId) {
         threadLocal.set(userId);
